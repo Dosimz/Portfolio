@@ -93,7 +93,7 @@
       </div> -->
       <div class="container">
             {% for blog in blogs.all %}
-            {{ blog.title }}
+            <h2><a href="{{ blog.id }}">{{ blog.title }}</a></h2>
             <br>
             {{ blog.date }}
             <br>
